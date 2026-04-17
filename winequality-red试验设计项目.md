@@ -187,6 +187,7 @@ for factor_name in factor_names:
 ```
 
 ## 1.3 生成基于已有数据集的均匀设计表
+
 ![alt text](image.png)
 
 ## 1.4 根据带约束的唯一匹配算法，选取出的最优符合均匀设计表的数据点
@@ -206,8 +207,11 @@ y = \beta_0 + \sum_{i=1}^{11} \beta_i x_i + \varepsilon
 \]
 
 拟合结果如下：
+
 ![alt text](image-2.png)
+
 ![alt text](image-3.png)
+
 结果显示：显著因子只有7total sulfur dioxide与11alcohol，模型过于简单
 
 
@@ -260,9 +264,11 @@ y = \beta_0 + \sum_{i=1}^{11} \beta_i x_i + \sum_{i=1}^{11} \beta_{ii} x_i^2 + \
 ### 3.3 最优参数组合
 
 基于全局优化搜索（差分进化算法），找到拟合的二次模型最优参数组合
+
 ![alt text](image-9.png)
 
 实际最优样本的参数组合
+
 ![alt text](image-8.png)
 
 ---
